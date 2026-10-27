@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none">
+  <defs>
+    <filter id="laserGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#D946EF" flood-opacity="0.85"/>
+    </filter>
+  </defs>
+  <!-- Posicionado en la mano derecha del avatar (X:350, Y:280) -->
+  <g transform="rotate(15 375 285)">
+    <!-- Mango metálico tecno-voxel -->
+    <rect x="368" y="200" width="16" height="145" rx="4" fill="#334155" stroke="#0F172A" stroke-width="4"/>
+    <rect x="371" y="230" width="10" height="80" fill="#64748B"/>
+    <!-- Cabezal de pico de plasma escalonado -->
+    <g filter="url(#laserGlow)">
+      <polygon points="315,215 345,185 407,185 437,215 422,230 397,205 355,205 330,230" 
+               fill="#F0ABFC" stroke="#A21CAF" stroke-width="4" stroke-linejoin="round"/>
+      <!-- Núcleo de energía central -->
+      <rect x="364" y="178" width="24" height="24" rx="4" fill="#38BDF8" stroke="#0284C7" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

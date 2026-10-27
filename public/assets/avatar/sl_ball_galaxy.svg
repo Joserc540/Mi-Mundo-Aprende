@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none">
+  <defs>
+    <radialGradient id="galaxyBall" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#A855F7"/>
+      <stop offset="55%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </radialGradient>
+  </defs>
+  <!-- Anillo orbital cósmico alrededor del balón (Posición mascota: 400, 390) -->
+  <ellipse cx="400" cy="390" rx="68" ry="22" transform="rotate(-20 400 390)" stroke="#38BDF8" stroke-width="5" stroke-dasharray="12 6" fill="none"/>
+  <!-- Esfera del balón -->
+  <circle cx="400" cy="390" r="42" fill="url(#galaxyBall)" stroke="#E0E7FF" stroke-width="4"/>
+  <!-- Pentágono central y líneas de paneles brillantes -->
+  <polygon points="400,372 417,384 410,404 390,404 383,384" fill="#38BDF8" fill-opacity="0.85" stroke="#BAE6FD" stroke-width="2.5"/>
+  <line x1="400" y1="372" x2="400" y2="348" stroke="#BAE6FD" stroke-width="3"/>
+  <line x1="417" y1="384" x2="440" y2="376" stroke="#BAE6FD" stroke-width="3"/>
+  <line x1="410" y1="404" x2="426" y2="424" stroke="#BAE6FD" stroke-width="3"/>
+  <line x1="390" y1="404" x2="374" y2="424" stroke="#BAE6FD" stroke-width="3"/>
+  <line x1="383" y1="384" x2="360" y2="376" stroke="#BAE6FD" stroke-width="3"/>
+  <!-- Estrellas flotantes -->
+  <circle cx="345" cy="345" r="4" fill="#FEF08A"/>
+  <circle cx="455" cy="425" r="5" fill="#FEF08A"/>
+</svg>

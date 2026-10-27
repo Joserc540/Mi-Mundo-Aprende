@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none">
+  <defs>
+    <clipPath id="shirtClip">
+      <path d="M162 256 L192 242 H320 L350 256 L362 302 L322 312 L316 376 H196 L190 312 L150 302 Z"/>
+    </clipPath>
+  </defs>
+  <!-- Shorts deportivos rojos -->
+  <path d="M196 368 H316 L320 422 H264 L256 392 L248 422 H192 Z" fill="#DC2626" stroke="#7F1D1D" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Base camiseta blanca con franja roja diagonal -->
+  <g clip-path="url(#shirtClip)">
+    <rect x="145" y="235" width="225" height="150" fill="#FFFFFF"/>
+    <path d="M195 235 L245 235 L325 385 L275 385 Z" fill="#DC2626"/>
+  </g>
+  <!-- Contorno de la camiseta -->
+  <path d="M162 256 L192 242 H320 L350 256 L362 302 L322 312 L316 376 H196 L190 312 L150 302 Z" fill="none" stroke="#334155" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Cuello V rojo y bordes de manga dorados -->
+  <path d="M226 242 L256 268 L286 242" stroke="#DC2626" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="288" cy="282" r="10" fill="#FACC15" stroke="#B45309" stroke-width="3"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none">
+  <defs>
+    <linearGradient id="giOrange" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FB923C"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+  </defs>
+  <!-- Pantalones holgados de artes marciales -->
+  <path d="M194 360 H318 L324 438 H268 L256 392 L244 438 H188 Z" fill="url(#giOrange)" stroke="#7C2D12" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Camiseta interior azul visible en el cuello -->
+  <path d="M222 246 L256 290 L290 246 Z" fill="#1D4ED8" stroke="#1E3A8A" stroke-width="4"/>
+  <!-- Túnica superior cruzada (Gi) -->
+  <path d="M180 244 L225 244 L256 292 L287 244 L332 244 L318 375 H194 Z" fill="url(#giOrange)" stroke="#7C2D12" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Pliegues del Gi -->
+  <path d="M215 246 L268 345" stroke="#7C2D12" stroke-width="4" stroke-linecap="round"/>
+  <path d="M297 246 L245 310" stroke="#7C2D12" stroke-width="4" stroke-linecap="round"/>
+  <!-- Cinturón azul (Obi) y lazos -->
+  <rect x="190" y="342" width="132" height="22" rx="6" fill="#1D4ED8" stroke="#1E3A8A" stroke-width="4"/>
+  <path d="M248 352 L228 405 M264 352 L284 405" stroke="#1D4ED8" stroke-width="10" stroke-linecap="round"/>
+  <!-- Muñequeras azules -->
+  <rect x="136" y="318" width="42" height="22" rx="6" transform="rotate(10 136 318)" fill="#1D4ED8" stroke="#1E3A8A" stroke-width="4"/>
+  <rect x="334" y="324" width="42" height="22" rx="6" transform="rotate(-10 334 324)" fill="#1D4ED8" stroke="#1E3A8A" stroke-width="4"/>
+</svg>
